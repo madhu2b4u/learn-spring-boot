@@ -1,7 +1,7 @@
-package org.learnspringboot;
+package org.learnspringboot.basics;
 
 
-import org.learnspringboot.model.Course;
+import org.learnspringboot.basics.model.Course;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

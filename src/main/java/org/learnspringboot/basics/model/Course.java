@@ -1,4 +1,4 @@
-package org.learnspringboot.model;
+package org.learnspringboot.basics.model;
 
 public class Course {
 
