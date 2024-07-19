@@ -8,7 +8,6 @@ public class Error {
     private String details;
 
     public Error(LocalDateTime timestamp, String message, String details) {
-        super();
         this.timestamp = timestamp;
         this.message = message;
         this.details = details;

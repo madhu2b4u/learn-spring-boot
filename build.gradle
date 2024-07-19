@@ -2,6 +2,7 @@ plugins {
     id 'java'
     id 'org.springframework.boot' version '3.3.1'
     id 'io.spring.dependency-management' version '1.1.5'
+    id 'org.springdoc.openapi-gradle-plugin' version "1.9.0"
 }
 
 group = 'org'
@@ -21,7 +22,13 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-devtools'
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    implementation 'org.springframework.boot:spring-boot-starter-hateoas'
+    //validations
     implementation 'org.springframework.boot:spring-boot-starter-validation'
+    // swagger documentation
+    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.3.0'
+    // content negotiation to get the xml dataformat in accept header
+   /* implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.17.2'*/
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     runtimeOnly 'com.h2database:h2'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
