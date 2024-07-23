@@ -2,10 +2,10 @@ package org.learnspringboot.databases.springdatajpa;
 
 import jakarta.transaction.Transactional;
 import org.learnspringboot.databases.jdbc.model.Course;
-import org.learnspringboot.databases.jpa.JpaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
+/*
 
 @Component
 @Transactional
@@ -27,3 +27,4 @@ public class SpringDataJpaCommandLineRunner implements CommandLineRunner {
         System.out.println(repository.findByAuthor("Madhu"));
     }
 }
+*/

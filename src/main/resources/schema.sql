@@ -1,1 +1,10 @@
-create table course(id bigint not null, name varchar(255) not null, author varchar(255) not null, primary key (id));
+insert into user_details(id, date_of_birth,name) values (10001, current_date(), 'Madhu')
+insert into user_details(id, date_of_birth,name) values (10002, current_date(), 'Priya')
+insert into user_details(id, date_of_birth,name) values (10003, current_date(), 'Yunay')
+insert into user_details(id, date_of_birth,name) values (10004, current_date(), 'Sita')
+insert into post(id,description,timestamp, user_id) values (20001,'I want to learn AWS', current_timestamp(),10001)
+insert into post(id,description,timestamp, user_id) values (20002,'I want to learn GCP', current_timestamp(),10001)
+insert into post(id,description,timestamp, user_id) values (20003,'I want to learn Azure', current_timestamp(),10001)
+insert into post(id,description,timestamp, user_id) values (20004,'I want to learn Android', current_timestamp(),10002)
+insert into post(id,description,timestamp, user_id) values (20005,'I want to learn ios', current_timestamp(),10002)
+insert into post(id,description,timestamp, user_id) values (20006,'I want to learn flutter', current_timestamp(),10002)

@@ -5,7 +5,7 @@ import jakarta.persistence.PersistenceContext;
 import org.learnspringboot.databases.jdbc.model.Course;
 import org.springframework.stereotype.Repository;
 
-@Repository
+/*@Repository
 public class JpaRepository {
 
     @PersistenceContext
@@ -23,4 +23,4 @@ public class JpaRepository {
         Course course = entityManager.find(Course.class, id);
         entityManager.remove(course);
     }
-}
+}*/
